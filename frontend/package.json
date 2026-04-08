@@ -30,4 +30,9 @@
       "last 1 safari version"
     ]
   }
+  "homepage": "https://dravion.github.io",
+  "scripts": {
+    "predeploy": "REACT_APP_BACKEND_URL=https://dravionwebsite.onrender.com yarn build",
+    "deploy": "gh-pages -d build"
+  }
 }
